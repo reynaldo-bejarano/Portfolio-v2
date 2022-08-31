@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className='lg:flex lg:justify-center gap-10 py-20 lg:py-10' id='about'>
       <div className='lg:w-[60%]'>
-        <h2  className='text-center lg:text-start py-5 font-bold text-4xl 2xl:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400'>Some things about me!</h2>
+        <h2  className='text-center lg:text-start py-5 font-bold text-4xl 2xl:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-blue-400'>Some things about me!</h2>
         <p className='text-center lg:text-start  font-bold text-md 2xl:text-xl text-slate-700 py-5'>
           Hi! My name is Reynaldo Bejarano and I enjoy creating things that live on the web.<span className='text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-purple-700'> My interest in web development started in 2020 while studying computer engineering </span>- spending many hours watching tutorials on YouTube and other platforms taught me a lot about HTML and CSS!
         </p>
@@ -16,7 +16,7 @@ const About = () => {
         <p className='text-center lg:text-start  font-bold text-md 2xl:text-xl text-slate-800 py-5'>Creative Solutions | English / Spanish | Responsive Design</p>
       </div>
       <div className='lg:w-[40%] flex justify-center py-5'>
-        <img className='rounded-3xl' src={image} alt='me-photo' width={500} />
+        <img className='rounded-3xl' src={image} alt="img" width={500} />
       </div>
     </div>
   )
