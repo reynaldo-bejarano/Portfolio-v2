@@ -27,7 +27,7 @@ const Navbar = () => {
                             <Link to='#about'>About</Link>
                         </li>
                         <li className='p-3 text-md text-slate-800 font-bold md:p-0'>
-                            <Link to='#experience'>Experience</Link>
+                            <Link to='#knowledge'>Knowledge</Link>
                         </li>
                         <li className='p-3 text-md text-slate-800 font-bold md:p-0'>
                             <Link to='#projects'>Projects</Link>
